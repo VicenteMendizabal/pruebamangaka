@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANGAKA!</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+    <header>
+        <!-- Redirige a la página principal al hacer clic en MANGAKA! -->
+        <a href="index.html" class="logo">MANGAKA!</a> 
+        <nav>
+            <!-- Redirige a la página Nosotros.html al hacer clic en Nosotros -->
+            <a href="Nosotros.html">Nosotros</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="inicio-content">
+                <h1>MANGAKA!</h1>
+                <button id="ver-mangas">Ver Mangas</button>
+            </div>
+        </section>
+
+        <section id="mangas">
+            <h1 class="section-title">NUESTROS MANGAS!</h1>
+            <div class="manga-grid">
+                <div class="manga-card">
+                    <img src="Images/Manga01.png" alt="Manga 1">
+                    <div class="manga-card-overlay">
+                        <h2>Kimetsu no Yaiba</h2>
+                        <p>Volumen 8 del manga Kimetsu no Yaiba.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga02.png" alt="Manga 2">
+                    <div class="manga-card-overlay">
+                        <h2>Jujutsu Kaisen</h2>
+                        <p>Volumen 1 del manga Jujutsu Kaisen.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga03.png" alt="Manga 3">
+                    <div class="manga-card-overlay">
+                        <h2>Haikyuu!!</h2>
+                        <p>Volumen 1 del manga Haikyuu!!.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga04.png" alt="Manga 4">
+                    <div class="manga-card-overlay">
+                        <h2>Haikyuu!!</h2>
+                        <p>Volumen 11 del manga Haikyuu!!.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga05.png" alt="Manga 5">
+                    <div class="manga-card-overlay">
+                        <h2>Haikyuu!!.</h2>
+                        <p>Volumen 39 del manga Haikyuu!!.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga06.png" alt="Manga 6">
+                    <div class="manga-card-overlay">
+                        <h2>Naruto</h2>
+                        <p>Volumen 53 del manga Naruto</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga07.png" alt="Manga 7">
+                    <div class="manga-card-overlay">
+                        <h2>Naruto</h2>
+                        <p>Volumen 70 del manga Naruto.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+                <div class="manga-card">
+                    <img src="Images/Manga08.png" alt="Manga 8">
+                    <div class="manga-card-overlay">
+                        <h2>Dandandan</h2>
+                        <p>Volumen 1 del manga Dandandan.</p>
+                        <div class="price">$9.000CLP</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mangaka. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('ver-mangas').addEventListener('click', function() {
+            document.getElementById('mangas').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
